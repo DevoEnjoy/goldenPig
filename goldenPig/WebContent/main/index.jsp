@@ -5,16 +5,14 @@
 <head>
 <meta charset="EUC-KR">
 <link rel="stylesheet" href="../assets/css/main/bulma.css">
-<link rel="stylesheet" href="../assets/css/main/main.css">
+<link rel="stylesheet" href="../assets/css/main/mainBanner.css">
+<link rel="stylesheet" href="../assets/css/main/mainContainer.css">
 <title>메인 페이지</title>
 </head>
-<style>
-
-</style>
 <body>
 	<div class="wrapper">
-		<header class="header"></header>
-
+		<!-- 헤더 넣는 jsp 코드 -->
+		<%@ include file="/main/header.jsp"%>
 		<main>
 			<header class="banner"></header>
 			<article class="home-container">
@@ -57,10 +55,18 @@
 
 				<section class="expert-section-wrapper">
 					<a href="/extras/about-membership"
-						class="tw-flex tw-justify-center"
-						style="background: #F3F5F9; border-radius: 8px;"> <img
+						class="is-flex is-justify-content-center"
+						style="background: #F3F5F9; border-radius: 8px;">
+						<img
 						src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_desktop.png"
-						class="membership-desktop-img is-hidden-touch"> <img
+						class="membership-desktop-img is-hidden-touch">
+					</a>
+					<!--  -->
+					<a href="/extras/about-membership"
+						class="is-flex is-justify-content-center"
+						style="background: #F3F5F9; border-radius: 8px;">
+						
+						<img
 						src="https://media.a-ha.io/aha-qna/assets/web/membership/band/membership_main_mobile.png"
 						class="membership-mobile-img is-hidden-desktop">
 					</a>
@@ -75,10 +81,10 @@
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
 									<div class="categoryCard-wrapper">
-										<a class="categoryCard is-align-content-center">
-											<img alt="" src="../assets/img/main/5310117_coin_dollar_money_icon.svg">
-										</a>
-										<span class="is-align-content-center">연말정산</span>
+										<a class="categoryCard is-align-content-center"> <img
+											alt=""
+											src="../assets/img/main/5310117_coin_dollar_money_icon.svg">
+										</a> <span class="is-align-content-center">연말정산</span>
 									</div>
 								</div>
 							</article>
@@ -164,7 +170,16 @@
 			</article>
 		</main>
 
-		<footer></footer>
+		<footer id="footers"></footer>
 	</div>
 </body>
+<!-- 헤더 넣는 js코드 -->
+<!--
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#headers").load("/header.jsp"); //헤더 인클루드
+		$("#footers").load("/footer.jsp"); //푸터부분 인클루드
+	});
+</script>
+-->
 </html>

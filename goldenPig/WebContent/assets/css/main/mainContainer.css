@@ -190,3 +190,7 @@ button, input, select, textarea {
     margin-bottom: 1rem;
 }
 
+.membership-desktop-img {
+	width: 560px;
+	height: 100px;
+}
