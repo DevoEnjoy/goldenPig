@@ -7,17 +7,11 @@
 <link rel="stylesheet" href="../assets/css/main/bulma.css">
 <link rel="stylesheet" href="../assets/css/main/main.css">
 <title>메인 페이지</title>
-
 </head>
 <style>
-@font-face {
-	font-family: 'Pretendard-Regular';
-	src:
-		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-		format('woff');
-	font-weight: 400;
-	font-style: normal;
-}
+/* article.home-section-categoryCard div{
+	background-color: white !important;
+} */
 </style>
 <body>
 	<div class="wrapper">
@@ -115,7 +109,8 @@
 				</section>
 				<section class="home-section">
 					<h4 class="home-section-title title is-3">오픈 Q&A</h4>
-					<h5 class="home-section-subtitle subtitle is-5">우리들의 지식을 자유롭게 나눠요</h5>
+					<h5 class="home-section-subtitle subtitle is-5">우리들의 지식을 자유롭게
+						나눠요</h5>
 					<div class="home-section-categoryCards tile is-ancestor">
 						<div class="home-section-categoryCards-wrapper tile is-parent">
 							<article class="home-section-categoryCard tile is-child">
