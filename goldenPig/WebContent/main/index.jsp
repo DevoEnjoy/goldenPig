@@ -9,9 +9,7 @@
 <title>메인 페이지</title>
 </head>
 <style>
-/* article.home-section-categoryCard div{
-	background-color: white !important;
-} */
+
 </style>
 <body>
 	<div class="wrapper">
@@ -76,30 +74,40 @@
 						<div class="home-section-categoryCards-wrapper tile is-parent">
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard">
-										<img alt="" src="../assets/img/main/5310117_coin_dollar_money_icon.svg">
-									</a>
-									<span>연말정산</span>
+									<div class="categoryCard-wrapper">
+										<a class="categoryCard is-align-content-center">
+											<img alt="" src="../assets/img/main/5310117_coin_dollar_money_icon.svg">
+										</a>
+										<span class="is-align-content-center">연말정산</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>이자</span>
+									<div class="categoryCard-wrapper">
+										<a class="categoryCard"> </a> <span>이자</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>금리</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>금리</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>의료</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>의료</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>보험</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>보험</span>
+									</div>
 								</div>
 							</article>
 						</div>
@@ -115,27 +123,37 @@
 						<div class="home-section-categoryCards-wrapper tile is-parent">
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>생활꿀팁</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>생활꿀팁</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>청소</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>청소</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>세탁</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>세탁</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>자동차</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>자동차</span>
+									</div>
 								</div>
 							</article>
 							<article class="home-section-categoryCard tile is-child">
 								<div class="">
-									<a class="categoryCard"> </a> <span>등산</span>
+									<div class="">
+										<a class="categoryCard"> </a> <span>등산</span>
+									</div>
 								</div>
 							</article>
 						</div>

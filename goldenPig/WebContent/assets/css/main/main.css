@@ -9,6 +9,7 @@
 }
 
 body {
+    font-family: "Pretendard",Helvetica,Arial,sans-serif;
 	background-color: #f8f8f8;
     text-shadow: none;
 }
@@ -168,6 +169,8 @@ button, input, select, textarea {
 .home-section-categoryCard div {
 	height: 134px;
     border: 1px solid #e3e3e3;
+   	background-color: white;
+   	border-radius: 8px;
 }
 
 .categoryCard img{
@@ -175,11 +178,15 @@ button, input, select, textarea {
 	height: 40px;
 }
 
-article.home-section-categoryCard div{
-	background-color: white !important;
-}	
+.home-section-categoryCard div div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 
-
-
-
+.home-section-categoryCard div div a img{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 
